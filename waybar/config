@@ -1,0 +1,46 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 32,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["pulseaudio", "network", "battery"],
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "on-click": "hyprctl dispatch workspace {name}",
+    "all-outputs": true,
+    "format-icons": {
+      "active": "{name}",
+      "default": "{name}"
+    }
+  },
+
+  "clock": {
+    "format": "{:%A, %B %d — %I:%M %p}",
+    "tooltip-format": "{:%Y-%m-%d %H:%M:%S}"
+  },
+
+  "pulseaudio": {
+    "format": " {volume}%",
+    "format-muted": " muted",
+    "on-click": "pavucontrol",
+    "on-scroll-up": "pamixer -i 5",
+    "on-scroll-down": "pamixer -d 5"
+  },
+
+  "network": {
+    "format-wifi": "",
+    "format-ethernet": "",
+    "format-disconnected": "",
+    "on-click": "nm-connection-editor"
+  },
+
+  "battery": {
+    "format": "{capacity}% ",
+    "format-charging": "{capacity}% "
+  },
+
+}
+
