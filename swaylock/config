@@ -1,0 +1,35 @@
+
+# General background
+color=2e3440
+
+# Text
+text-color=e6e6e1
+font=sans-serif
+
+# Ring colors
+ring-color=4c566a
+ring-clear-color=81a1c1
+ring-ver-color=88c0d0
+ring-wrong-color=bf616a
+
+# Inside circle
+inside-color=3b4252
+inside-clear-color=434c5e
+inside-ver-color=434c5e
+inside-wrong-color=3b4252
+
+# Line between rings
+line-color=2e3440
+line-clear-color=81a1c1
+line-ver-color=88c0d0
+line-wrong-color=bf616a
+
+# Text states
+text-clear-color=e6e6e1
+text-ver-color=e6e6e1
+text-wrong-color=e6e6e1
+
+# Disable blur and dim (optional)
+grace=0
+fade-in=0.2
+

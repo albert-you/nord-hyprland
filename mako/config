@@ -1,0 +1,21 @@
+# === Appearance ===
+font=Fira Sans 12
+background-color=#2e3440cc
+text-color=#eceff4
+border-color=#81a1c1
+border-size=2
+border-radius=12
+
+# === Positioning ===
+anchor=top-right
+margin=20
+padding=12
+width=400
+default-timeout=5000
+layer=overlay
+output=*
+
+# === Behavior ===
+ignore-timeout=0
+#hide-on-dismiss=1
+

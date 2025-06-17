@@ -4,7 +4,7 @@
 
 * {
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   color: @text-color;
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@
 
 window#waybar {
   background-color: @background-color;
-  padding: 0 6px;
+  padding: 0 0px;
 }
 
 #workspaces {
